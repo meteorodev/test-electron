@@ -16,7 +16,7 @@ Se recomienda instalar como un dependencia de desarrollo
  npm install electron@latest -save-dev
 
 ## Crear el archivo main.js
-El contenido que se describe en la pagina oficial de electron es similar al siguiente
+Se debe agregar el contenido que se describe en la pagina oficial de electron que es similar al siguiente
 ```javascript
 //main script for electron
 const { app, BrowserWindow } = require('electron')
