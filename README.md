@@ -17,6 +17,7 @@ Se recomienda instalar como un dependencia de desarrollo
 
 ## Crear el archivo main.js
 El contenido que se describe en la pagina oficial de electron es similar al siguiente
+```javascript
 //main script for electron
 const { app, BrowserWindow } = require('electron')
   
@@ -68,6 +69,7 @@ const { app, BrowserWindow } = require('electron')
   // In this file you can include the rest of your app's specific main process
   // code. You can also put them in separate files and require them here.
 
+```
 
 * notesé que en la linea win.loadFile('./dist/TestElectron/index.html') se apunta al directorio dist el cual se debe crear en la compilación.
 ## Configurar el archivo package.json
