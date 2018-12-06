@@ -2,10 +2,10 @@
 Este es un ejemplo más de uso de electronjs con angular 7, aquí se describe el proceso de configuración inicial como uno de tantos tutoriales disponibles en la web.
 
 # Entorno
-Angular CLI: 7.0.6
-Node: 10.14.1
-OS: linux x64
-electron: 3.0.10
+- Angular CLI: 7.0.6
+- Node: 10.14.1
+- OS: linux x64
+- electron: 3.0.10
 
 # Configuración
 Web oficial de electronjs : https://electronjs.org/docs
