@@ -79,11 +79,13 @@ relaizar los siguientes cambios:
 
 Luego de "version": "0.0.0" agregar la linea "main": "main.js",
 Debe quedar similar a lo siguiente:
-
+```json
  "version": "0.0.0",
   "main": "main.js",
+```
 En la sección scripts agregar. "electron-build": "ng build --prod" y "electron": "electron ."
 Debe quedar similar a lo siguiente:
+```json
 "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -94,10 +96,10 @@ Debe quedar similar a lo siguiente:
     "electron-build": "ng build --prod",
     "electron": "electron ."
   },
-
+```
 ## Cambiar el archivo index.html
 
-En la linea <base href="/"> sustituir por <base href="./">
+En la linea ```html <base href="/"> ``` sustituir por ```html <base href="./"> ```
 
 ## probar la configuración
 ejecutar la compilación mediante 
