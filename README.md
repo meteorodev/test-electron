@@ -30,7 +30,7 @@ const { app, BrowserWindow } = require('electron')
     win = new BrowserWindow({ width: 400, height: 400 })
   
     // and load the index.html of the app.
-    win.loadFile('./dist/TestElectron/index.html')
+    win.loadFile('./dist/test-electron/index.html')
   
     // Open the DevTools.
     //win.webContents.openDevTools()
